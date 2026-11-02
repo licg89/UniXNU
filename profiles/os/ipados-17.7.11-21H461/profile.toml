@@ -42,7 +42,7 @@
 # them), AppleMatch, plus IOStorageFamily and apfs for the eventual root.
 # Everything else (graphics, audio, HID, DART, the Apple platform drivers) is
 # board bring-up this port has no driver for yet, and each one costs megabytes.
-"roots" = ["com.apple.kec.Libm", "com.apple.kec.corecrypto", "com.apple.security.sandbox", "com.apple.security.AppleImage4", "com.apple.driver.AppleMobileFileIntegrity", "com.apple.kec.AppleMatch", "com.apple.iokit.IOStorageFamily", "com.apple.filesystems.apfs"]
+"roots" = ["com.apple.kec.Libm", "com.apple.kec.corecrypto", "com.apple.security.sandbox", "com.apple.security.AppleImage4", "com.apple.driver.AppleMobileFileIntegrity", "com.apple.kext.AppleMatch", "com.apple.kext.CoreTrust", "com.apple.iokit.IOStorageFamily", "com.apple.filesystems.apfs"]
 
 
 
